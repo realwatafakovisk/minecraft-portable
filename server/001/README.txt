@@ -1,8 +1,22 @@
-# Server container
-This is really simple:
+# Server-Container – realwatafakovisk Edition
 
-DISCLAIMER: (The name of the folder, '001' is just the ID of the server, you can rename the folder in what you want)
+Das Einrichten eines Servers ist wirklich einfach.
 
-1 - Just put the '.jar' (The version of Minecraft you want) in the folder
+**Hinweis:**  
+Der Name des Server-Ordners (z. B. `001`) ist nur eine ID für den Server.  
+Du kannst den Ordner beliebig umbenennen – der Name hat keine technische Bedeutung.
 
-2 - The server will be run, do what you do normally
+---
+
+## Anleitung
+
+1. Lege die gewünschte Minecraft-Serverdatei (`.jar`) in den Ordner ab.  
+   Beispiel: `server.jar`, `fabric-server.jar`, `forge-server.jar` usw.
+
+2. Starte den Server mit der vorhandenen Startdatei (`server.bat`).  
+   Danach kannst du alles wie gewohnt einrichten und spielen.
+
+---
+
+Der Server läuft vollständig portabel – keine Installation, keine zusätzlichen Schritte.  
+Einfach die `.jar` einfügen, starten und loslegen.
