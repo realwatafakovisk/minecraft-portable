@@ -1,36 +1,65 @@
-# minecraftportable
-Run Minecraft on USB, in a standalone folder
-This standalone of original launcher of Minecraft will work on ONE folder, just one.
+# Minecraft Portable – realwatafakovisk Edition
 
-You will can install mods, and all the things you can normally! (shaders, resource packs, worlds saves)
+Starte Minecraft direkt vom USB-Stick – keine Installation, keine Spuren auf dem PC.  
+Diese Version nutzt den originalen Minecraft-Launcher, läuft aber vollständig in einem einzigen Ordner.  
+Du kannst Mods, Shader, Resource Packs und Welten installieren – alles funktioniert wie gewohnt.
 
-# How to install
-It's simple:
+---
 
-1 - Open the 'minecraftstart.bat', not 'Minecraft.exe' in the '\bin' it will create '.minecraft' folder in '%appdata%'.
+## Installation
 
-2 - Wait for the updates of the Launcher
+1. Starte die Datei `minecraftstart.bat` – nicht `Minecraft.exe` im Ordner `\bin`.  
+   Dadurch wird automatisch der Ordner `.minecraft` im Verzeichnis `\data` erstellt (nicht in `%appdata%`).
 
-3 - And it's done! connect to your Microsoft Account and do what you do normally!
+2. Warte, bis der Launcher alle Updates geladen hat.
 
-Note: (The '.minecraft' folder is in '\data' folder, you can import your worlds in, your mods, ect)
+3. Melde dich mit deinem Microsoft-Konto an – und spiele ganz normal.
 
-If you want install Optifine, Iris Shaders (It's possible!):
+Hinweis: Der `.minecraft`-Ordner befindet sich im `\data`-Verzeichnis.  
+Dort kannst du deine Welten, Mods, Shader und alle anderen Daten einfügen.
 
-1 - On Optifine .jar installer, target the .minecraft in the '\data' folder, same for Iris, Forge, Fabric.
+---
 
-# Servers setup
+## Mods, OptiFine und Shader installieren
 
-You can host servers directly in the folder!
+Alle bekannten Modifikationen funktionieren auch hier.
 
-1 - Go to the server folder and you can place every type of servers .jar, for plugins, mods, ect...
+1. Öffne den jeweiligen Installer (`.jar`), zum Beispiel für OptiFine, Iris, Forge oder Fabric.  
+2. Wenn nach einem Zielordner gefragt wird, wähle den `.minecraft`-Ordner im `\data`-Verzeichnis aus.
 
-2 - Place the .jar in the folder and rename it on: server.jar
+Damit ist dein portables Minecraft vollständig modfähig.
 
-3 - You can play on your server!
+---
 
-Note: (You can change the name of the .jar, you just need to go into the server.bat and change 'server.jar' in anything, for example: 'myfirstserver.jar')
+## Server einrichten
 
-# Help
-Come to Discord!
-Asyfero#1503
+Du kannst direkt aus demselben Ordner deinen eigenen Server hosten.
+
+1. Öffne den Ordner `server`.  
+2. Lege dort deine Server-Datei (`.jar`) ab – egal ob Vanilla, Modded oder Plugin-Server.  
+3. Benenne die Datei in `server.jar` um.
+
+Starte dann `server.bat`, um den Server zu starten.
+
+Hinweis:  
+Wenn du der Serverdatei einen anderen Namen geben möchtest, öffne `server.bat`  
+und ersetze `server.jar` durch den gewünschten Dateinamen, zum Beispiel `meinserver.jar`.
+
+---
+
+## Hilfe und Support
+
+Discord: **Asyfero#1503**  
+Angepasst und betreut von **realwatafakovisk**
+
+---
+
+## Hinweise
+
+- Läuft vollständig vom USB-Stick oder einem beliebigen Ordner.  
+- Keine Änderungen an Windows oder der Registry.  
+- Alles bleibt sauber, portabel und unabhängig – einfach abziehen und weiterspielen.
+
+---
+
+Erstellt von realwatafakovisk
