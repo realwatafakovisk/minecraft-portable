@@ -49,8 +49,7 @@ und ersetze `server.jar` durch den gewünschten Dateinamen, zum Beispiel `meinse
 
 ## Hilfe und Support
 
-Discord: **Asyfero#1503**  
-Angepasst und betreut von **realwatafakovisk**
+Discord: **watafakovisk**  
 
 ---
 
