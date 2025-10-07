@@ -1,5 +1,4 @@
-# Minecraft Portable – realwatafakovisk Edition
-
+# Minecraft Portable
 Starte Minecraft direkt vom USB-Stick – keine Installation, keine Spuren auf dem PC.  
 Diese Version nutzt den originalen Minecraft-Launcher, läuft aber vollständig in einem einzigen Ordner.  
 Du kannst Mods, Shader, Resource Packs und Welten installieren – alles funktioniert wie gewohnt.
